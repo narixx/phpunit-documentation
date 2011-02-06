@@ -24,39 +24,39 @@
   <para>
     <indexterm><primary>Code Coverage (Cobertura de código)</primary></indexterm>
 
-    In this chapter you will learn all about PHPUnit's code coverage
-    functionality that provides an insight into what parts of the production
-    code are executed when the tests are run. It helps answering questions such
-    as:
+    Neste capítulo você irá aprender tudo sobre PHPUnit's cobertura de código
+    funcionalidade que fornece uma visão de quais partes do código
+    produzido são executados quando os testes são executados. Ela ajuda a responder perguntas
+    como:
   </para>
 
   <itemizedlist>
     <listitem>
       <para>
-        How do you find code that is not yet tested -- or, in other words, not
-        yet <emphasis>covered</emphasis> by a test?
+        Como você encontrar código que ainda não é testado -- ou, em outras palavrar, ainda
+        não <emphasis>coberto</emphasis> por um teste?
       </para>
     </listitem>
     <listitem>
-      <para>How do you measure testing completeness?</para>
+      <para>Como você mede testes completo?</para>
     </listitem>
   </itemizedlist>
 
   <para>
-    An example of what code coverage statistics can mean is that if there is a
-    method with 100 lines of code, and only 75 of these lines are actually
-    executed when tests are being run, then the method is considered to have a
-    code coverage of 75 percent.
+    Um exemplo de que estatistícas de cobertura de código pode dizer é que se houver um
+    método com 100 linhas de código, e apenas 75 dessas linhas são realmente
+    executadas quando testes estão sendo executados, o método é considerado como tendo uma
+    cobertura de código de 75 por cento.
   </para>
 
   <para>
     <indexterm><primary>Xdebug</primary></indexterm>
 
-    PHPUnit's code coverage functionality makes use of the
+    PHPUnit's funcionalidade de cobertura de código faz uso do
     <ulink url="http://github.com/sebastianbergmann/php-code-coverage">PHP_CodeCoverage</ulink>
-    component, which in turn leverages the statement coverage functionality
-    provided by the <ulink url="http://www.xdebug.org/">Xdebug</ulink>
-    extension for PHP.
+    componente, que por sua vez aproveita a funcionalidade de cobertura
+    fornecida pelo <ulink url="http://www.xdebug.org/">Xdebug</ulink>
+    extensão para PHP.
   </para>
 
   <para>
