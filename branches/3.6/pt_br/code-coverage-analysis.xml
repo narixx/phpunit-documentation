@@ -9,13 +9,20 @@
       The beauty of testing is found not in the effort but in the effiency.
     </para>
     <para>
+      - A beleza do teste não é encontrado no esforço, mas na eficiência.
+    </para>
+    <para>
       Knowing what should be tested is beautiful, and knowing what is being
       tested is beautiful.
+    </para>
+    <para>
+      - Saber o que deve ser testado é lindo, e saber o que está sendo
+      testado é lindo.
     </para>
   </blockquote>
 
   <para>
-    <indexterm><primary>Code Coverage</primary></indexterm>
+    <indexterm><primary>Code Coverage (Cobertura de código)</primary></indexterm>
 
     In this chapter you will learn all about PHPUnit's code coverage
     functionality that provides an insight into what parts of the production
