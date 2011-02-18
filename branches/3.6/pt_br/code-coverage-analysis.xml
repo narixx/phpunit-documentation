@@ -38,14 +38,14 @@
       </para>
     </listitem>
     <listitem>
-      <para>Como você mede testes completo?</para>
+      <para>Como você avaliar que o teste foi concluído?</para>
     </listitem>
   </itemizedlist>
 
   <para>
     Um exemplo de que estatistícas de cobertura de código pode dizer é que se houver um
     método com 100 linhas de código, e apenas 75 dessas linhas são realmente
-    executadas quando testes estão sendo executados, o método é considerado como tendo uma
+    executadas quando os testes estão sendo executados, em seguida, o método é considerado como tendo uma
     cobertura de código de 75 por cento.
   </para>
 
@@ -136,7 +136,7 @@ class BankAccountTest extends PHPUnit_Framework_TestCase
 
   <para>
     <xref linkend="code-coverage-analysis.figures.Code_Coverage3.png" /> Mostra
-    a cobertura de código do <literal>setBalance()</literal> com o metódo teste
+    a cobertura de código do <literal>setBalance()</literal> com o teste
     adicional.
   </para>
 
@@ -309,17 +309,17 @@ if (FALSE) {
     </para>
 
     <para>
-      A lista negra (blacklist) é pré-preenchida com todos arquivos de código do próprio PHPUnit
+      A lista negra (blacklist) é pré-preenchida com todos os arquivos de código fonte do próprio PHPUnit
       bem como os testes. Quando a lista branca (whitelist) é vazia (padrão), a lista negra
       é usada. Quando a lista branca (whitelist) não está vazia, a lista branca é usada. Quando
       lista branca é usada, cada arquivo na lista opcionalmente é adicionado
-      ao relatório de cobertura de código independentemente de haver ou ele não foi executado.
+      ao relatório de cobertura de código independentemente da existência ou não foi executado.
     </para>
 
     <para>
       PHPUnit's XML arquivo de configuração (veja <xref linkend="appendixes.configuration.blacklist-whitelist"/>)
       pode ser usado para controlar a lista negra (blacklist) e a lista branca (whitelist). Usar uma 
-      lista branca (whitelist) é a prática recomendada para controlar a lista de arquivos incluídos no
+      lista branca (whitelist) é prática recomendada para controlar a lista de arquivos incluídos no
       relatório de cobertura de código.
     </para>
 
